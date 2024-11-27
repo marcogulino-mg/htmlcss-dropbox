@@ -8,4 +8,63 @@ body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.debug {
+    border: solid 1px #000000;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    /* DEBUG */
+    background-color: #008000;
+}
+
+.logo {
+    height: 100%;
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    border: solid 1px #000000;
+}
+
+.logo > span {
+    height: 100%;
+    flex-basis: 100%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#top-page-menu {
+    height: 100%;
+    flex-basis: 90%;
+    display: flex;
+}
+
+.half-menu {
+    display: flex;
+    height: 100%;
+    flex-basis: 50%;
+    align-items: center;
+    gap: 50px;
+}
+
+.half-menu:last-child {
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: #0061fe;
+    padding: 10px;
+    margin-right: 15px;
 }
