@@ -1,70 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000000;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
 }
 
 .debug {
-    border: solid 1px #000000;
+  border: solid 1px #2600ff;
 }
 
 /* HEADER */
 header {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    /* DEBUG */
-    background-color: #008000;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  /* DEBUG */
+  background-color: #008000;
 }
 
 .logo {
-    height: 100%;
-    flex-basis: 10%;
-    display: flex;
-    align-items: center;
-    border: solid 1px #000000;
+  height: 100%;
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
 }
 
 .logo > span {
-    height: 100%;
-    flex-basis: 100%;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
+  height: 100%;
+  flex-basis: 100%;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
 }
 
 #top-page-menu {
-    height: 100%;
-    flex-basis: 90%;
-    display: flex;
+  height: 100%;
+  flex-basis: 90%;
+  display: flex;
 }
 
 .half-menu {
-    display: flex;
-    height: 100%;
-    flex-basis: 50%;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  height: 100%;
+  flex-basis: 50%;
+  align-items: center;
+  gap: 50px;
 }
 
 .half-menu:last-child {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .button {
-    background-color: #0061fe;
-    padding: 10px;
-    margin-right: 15px;
+  background-color: #0061fe;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+/* MAIN */
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+#bottom-page-menu {
+  flex-basis: 80%;
+  width: 70%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+#bottom-page-menu > ul {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.language-sel {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.language-sel > hr {
+  width: 12%;
+}
+
+footer > span {
+  flex-basis: 20%;
 }
