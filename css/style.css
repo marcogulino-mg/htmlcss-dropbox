@@ -24,6 +24,18 @@ li {
   border: solid 1px #2600ff;
 }
 
+h1 {
+    font-size: 65px;
+    height: 20%;
+}
+
+.button {
+    background-color: #0061fe;
+    padding: 10px;
+    margin-right: 15px;
+    width: fit-content;
+}
+
 /* HEADER */
 header {
   width: 100%;
@@ -66,13 +78,34 @@ header {
   justify-content: flex-end;
 }
 
-.button {
-  background-color: #0061fe;
-  padding: 10px;
-  margin-right: 15px;
+/* MAIN */
+.jumbotron {
+    background-color: #b4d0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 1000px;
 }
 
-/* MAIN */
+.container-jt {
+    height: 90%;
+    flex-basis: 70%;
+}
+
+.bottom-part-jt {
+    height: 65%;
+    display: flex;
+    margin-top: 70px;
+}
+
+.bottom-part-jt > div {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 /* FOOTER */
 footer {
