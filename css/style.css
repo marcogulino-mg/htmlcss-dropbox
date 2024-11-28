@@ -24,8 +24,16 @@ li {
   border: solid 1px #2600ff;
 }
 
+.border {
+  border: solid 1px #000000;
+}
+
 section {
   font-size: 20px;
+}
+
+label {
+  padding-right: 60px;
 }
 
 h1 {
@@ -45,6 +53,14 @@ h4 {
   font-size: 20px;
 }
 
+hr {
+  width: 20%;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
 .button {
   background-color: #0061fe;
   padding: 12px;
@@ -59,12 +75,9 @@ h4 {
   margin-bottom: 30px;
 }
 
-hr {
-  width: 20%;
-}
-
-.white-text {
-  color: #ffffff;
+/* FONT AWESOME */
+.fa-check {
+  color: #005bff;
 }
 
 /* HEADER */
@@ -167,8 +180,6 @@ section {
 .cols {
   display: flex;
   justify-content: space-between;
-  /* DEBUG */
-  height: 1000px;
 }
 
 .cols > div {
@@ -188,23 +199,41 @@ section {
 .title-card {
   text-align: center;
   padding: 10px;
-  border: solid 1px #000000;
+  border-bottom: solid 1px #000000;
 }
 
 .price {
   padding: 20px 0 40px 0;
+  line-height: 35px;
+}
+
+.price > li:first-child {
+  font-weight: bold;
+}
+
+.price > li:last-child {
+  color: grey;
 }
 
 .info-plan {
   padding-bottom: 30px;
 }
 
+.info-plan > li {
+  padding-bottom: 20px;
+}
+
 .interactions {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.interactions > span a {
+  color: #8483f7;
+  text-decoration: underline #8483f7;
 }
 
 .short-description {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .short-description > ul {
@@ -229,6 +258,7 @@ section {
 
 .title {
   flex-basis: 80%;
+  font-weight: bold;
 }
 
 .button-container {
