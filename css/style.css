@@ -260,6 +260,16 @@ figcaption {
   padding-top: 20px;
 }
 
+/* SECTION 04 */
+.underline-a {
+  padding-top: 50px;
+}
+
+.underline-a > a{
+  color: #8483f7;
+  text-decoration: underline #8483f7;
+}
+
 /* FOOTER */
 footer {
   background-color: #000000;
