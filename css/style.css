@@ -363,7 +363,11 @@ footer a {
 }
 
 .language-sel > hr {
-  width: 12%;
+  width:8%;
+}
+
+.language-sel a {
+  color: #999a99;
 }
 
 footer > span {
