@@ -29,11 +29,34 @@ h1 {
     height: 20%;
 }
 
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 .button {
     background-color: #0061fe;
     padding: 10px;
     margin-right: 15px;
     width: fit-content;
+}
+
+.button-plans {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 20%;
 }
 
 /* HEADER */
@@ -106,6 +129,94 @@ header {
     gap: 30px;
 }
 
+/* SECTIONS */
+section {
+  margin: 150px auto;
+}
+
+.container-sections {
+  margin: 0 auto;
+  max-width: 65%;
+}
+
+.container-plans {
+  margin-top: 50px;
+}
+
+.radiobox {
+  padding-top: 20px;
+}
+
+.cols {
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  height: 1000px;
+}
+
+.cols > div {
+  width: 30%;
+}
+
+.row {
+  height: 370px;
+  margin-top: 50px;
+}
+
+.col-items {
+  max-height: 100%;
+  padding: 40px 20px;
+}
+
+.title-card {
+  text-align: center;
+  padding: 10px;
+  border: solid 1px #000000;
+}
+
+.price {
+  padding: 20px 0 40px 0;
+}
+
+.info-plan {
+  padding-bottom: 30px;
+}
+
+.interactions {
+  padding-bottom: 30px;
+}
+
+.short-description {
+  padding-top: 30px;
+}
+
+.short-description > ul {
+  padding-top: 30px;
+}
+
+.short-description > ul > li {
+  padding-top: 20px;
+}
+
+.row-items {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 60px;
+  padding: 30px 20px;
+}
+
+.title-button-container {
+  display: flex;
+}
+
+.title {
+  flex-basis: 80%;
+}
+
+.button-container {
+  flex-basis: 20%;
+}
 
 /* FOOTER */
 footer {
