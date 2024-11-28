@@ -294,24 +294,22 @@ figcaption {
 
 /* SECTION 03 */
 .square-container {
-  padding-top: 30px;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* DEBUG */
-  height: 1000px;
 }
 
 .square-container > div {
   flex-basis: 31%;
 }
 
-.img {
-  height: 60%;
-}
-
 .square-container p {
   padding-top: 20px;
+}
+
+.square-container img {
+  max-width: 100%;
 }
 
 /* SECTION 04 */
