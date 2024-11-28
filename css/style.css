@@ -130,6 +130,8 @@ header {
 }
 
 /* SECTIONS */
+
+/* SECTION 01 */
 section {
   margin: 150px auto;
 }
@@ -216,6 +218,24 @@ section {
 
 .button-container {
   flex-basis: 20%;
+}
+
+/* SECTION 02 */
+figure {
+  display: flex;
+  height: 800px;
+}
+
+figure > div {
+  width: 60%;
+}
+
+figcaption {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  gap: 30px;
 }
 
 /* FOOTER */
