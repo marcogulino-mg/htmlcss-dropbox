@@ -25,12 +25,12 @@ li {
 }
 
 h1 {
-    font-size: 65px;
-    height: 20%;
+  font-size: 65px;
+  height: 20%;
 }
 
 h2 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 h3 {
@@ -42,10 +42,10 @@ h4 {
 }
 
 .button {
-    background-color: #0061fe;
-    padding: 10px;
-    margin-right: 15px;
-    width: fit-content;
+  background-color: #0061fe;
+  padding: 10px;
+  margin-right: 15px;
+  width: fit-content;
 }
 
 .button-plans {
@@ -59,13 +59,15 @@ hr {
   width: 20%;
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 /* HEADER */
 header {
   width: 100%;
   height: 90px;
   display: flex;
-  /* DEBUG */
-  background-color: #008000;
 }
 
 .logo {
@@ -73,14 +75,11 @@ header {
   flex-basis: 10%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.logo > span {
-  height: 100%;
-  flex-basis: 100%;
-  padding-left: 15px;
-  display: flex;
-  align-items: center;
+.logo > img {
+  max-height: 100%;
 }
 
 #top-page-menu {
@@ -103,30 +102,30 @@ header {
 
 /* MAIN */
 .jumbotron {
-    background-color: #b4d0e6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* DEBUG */
-    height: 1000px;
+  background-color: #b4d0e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* DEBUG */
+  height: 1000px;
 }
 
 .container-jt {
-    height: 90%;
-    flex-basis: 70%;
+  height: 90%;
+  flex-basis: 70%;
 }
 
 .bottom-part-jt {
-    height: 65%;
-    display: flex;
-    margin-top: 70px;
+  height: 65%;
+  display: flex;
+  margin-top: 70px;
 }
 
 .bottom-part-jt > div {
-    flex-basis: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /* SECTIONS */
@@ -265,7 +264,7 @@ figcaption {
   padding-top: 50px;
 }
 
-.underline-a > a{
+.underline-a > a {
   color: #8483f7;
   text-decoration: underline #8483f7;
 }
