@@ -69,6 +69,10 @@ hr {
   width: fit-content;
 }
 
+.button:hover {
+  background-color: #00cdfe;
+}
+
 .button-plans {
   display: block;
   width: 100%;
