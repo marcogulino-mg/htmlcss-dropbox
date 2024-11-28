@@ -24,8 +24,12 @@ li {
   border: solid 1px #2600ff;
 }
 
+section {
+  font-size: 20px;
+}
+
 h1 {
-  font-size: 65px;
+  font-size: 75px;
   height: 20%;
 }
 
@@ -43,7 +47,7 @@ h4 {
 
 .button {
   background-color: #0061fe;
-  padding: 10px;
+  padding: 12px;
   margin-right: 15px;
   width: fit-content;
 }
@@ -101,13 +105,15 @@ header {
 }
 
 /* MAIN */
-.jumbotron {
+
+/* JUMBOTRON */
+#jumbotron {
   background-color: #b4d0e6;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* DEBUG */
-  height: 1000px;
+  margin-top: 0;
+  padding-top: 40px;
 }
 
 .container-jt {
@@ -116,16 +122,26 @@ header {
 }
 
 .bottom-part-jt {
-  height: 65%;
   display: flex;
   margin-top: 70px;
 }
 
-.bottom-part-jt > div {
-  flex-basis: 50%;
+.jumbo-text {
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+#jumbotron img {
+  max-width: 100%;
+}
+
+.arrow {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 /* SECTIONS */
