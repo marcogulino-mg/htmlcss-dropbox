@@ -233,8 +233,8 @@ section {
 }
 
 .interactions > span a {
-  color: #8483f7;
-  text-decoration: underline #8483f7;
+  color: #0a1cf4;
+  text-decoration: underline #0a1cf4;
 }
 
 .short-description {
@@ -295,6 +295,7 @@ figcaption {
 /* SECTION 03 */
 .square-container {
   padding-top: 60px;
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -318,8 +319,8 @@ figcaption {
 }
 
 .underline-a > a {
-  color: #8483f7;
-  text-decoration: underline #8483f7;
+  color: #0a1cf4;
+  text-decoration: underline #0a1cf4;
 }
 
 /* FOOTER */
