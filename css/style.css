@@ -161,6 +161,9 @@ header {
 .bottom-part-jt {
   display: flex;
   margin-top: 70px;
+  position: relative;
+  bottom: -85px;
+  left: 0;
 }
 
 .jumbo-text {
@@ -178,7 +181,7 @@ header {
   display: flex;
   height: 100%;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
 }
 
 /* SECTIONS */
@@ -382,7 +385,7 @@ footer a {
 }
 
 .language-sel > hr {
-  width:8%;
+  width: 8%;
 }
 
 .language-sel a {
